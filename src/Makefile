@@ -1,4 +1,4 @@
-OBJFILES = main.o
+OBJFILES = main.o func.h logger.o
 
 CXXFLAGS = -Wall -std=c++0x -pipe -g
 LDFLAGS  = -g
